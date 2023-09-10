@@ -1,9 +1,9 @@
 [![Multi-Modality](agorabanner.png)](https://discord.gg/qUtxnK2NMf)
 
-# Paper-Implementation-Template
-A simple reproducible template to implement AI research papers 
+# Koi
+A simple pytorch implementation of a meta learning algorithm from OPENAI "Reptile: A scalable meta-learning algorithm"
 
-Paper Link
+
 
 # Appreciation
 * Lucidrains
@@ -15,13 +15,7 @@ Paper Link
 
 # Usage
 
-# Architecture
-
-# Todo
-
 
 # License
 MIT
-
-# Citations
 
