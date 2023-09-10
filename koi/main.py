@@ -45,3 +45,13 @@ class Koi:
                     param.data += self.step_size * (final_parameters[name] - param.data)
         return self.model
     
+#init Koi
+koi = Koi(
+    model,
+    step_size=0.01,
+    num_steps=10, 
+    num_iterations=1000
+)
+
+
+

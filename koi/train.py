@@ -1,27 +1,7 @@
-[![Multi-Modality](agorabanner.png)](https://discord.gg/qUtxnK2NMf)
-
-# Koi
-A simple pytorch implementation of a meta learning algorithm from OPENAI "Reptile: A scalable meta-learning algorithm"
-
-
-
-# Appreciation
-* Lucidrains
-* Agorians
-
-
-
-# Install
-`pip install koi-x`
-
-# Usage
-```python
 import torch
 from torch import nn
 from copy import deepcopy
 import numpy as np
-
-from koi import Koi
 
 
 
@@ -75,9 +55,3 @@ print(f"Output after training: {y_pred.item()}")
 x_new, y_new = task.sample_data(n=1)
 y_pred_new = koi.model(x_new)
 print(f"Output on new data: {y_pred_new.item()}")
-
-```
-
-# License
-MIT
-
