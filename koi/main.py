@@ -52,6 +52,3 @@ koi = Koi(
     num_steps=10, 
     num_iterations=1000
 )
-
-
-
