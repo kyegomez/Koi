@@ -3,15 +3,6 @@ from torch import nn
 from copy import deepcopy
 
 
-model = nn.Sequential(
-    nn.Linear(1, 64),
-    nn.Tanh(),
-    nn.Linear(64, 64),
-    nn.Tanh(),
-    nn.Linear(64, 1),
-)
-
-
 class Koi:
     def __init__(
         self,
@@ -46,9 +37,19 @@ class Koi:
         return self.model
     
 #init Koi
-koi = Koi(
-    model,
-    step_size=0.01,
-    num_steps=10, 
-    num_iterations=1000
-)
+# model = nn.Sequential(
+#     nn.Linear(1, 64),
+#     nn.Tanh(),
+#     nn.Linear(64, 64),
+#     nn.Tanh(),
+#     nn.Linear(64, 1),
+# )
+
+
+
+# koi = Koi(
+#     model,
+#     step_size=0.01,
+#     num_steps=10, 
+#     num_iterations=1000
+# )
